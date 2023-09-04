@@ -1,0 +1,619 @@
+what is the web 
+ the web is a subset of the internet
+
+the internetis coined from two words which are imter which stands for international and net which stands for network
+
+
+the network is a collection of systems that are connected together
+
+the web is a collection of files, assests, resources that are accesible through the internet, in other words the web is a client server system
+
+
+web development is everything that entails the development, implementatio, creation, maintenance of the web
+ther are 2 aspects of web development which are
+
+the client side or front end development - can see and interact
+
+server side or back end development- cant see 
+
+
+3 pilars of the web
+html- hypertext markup language for structure and content
+uses elements to define content, an element consist of an opening of an opening tag- <name> or a content comes after the opening tag and or a closing tag </name> and or an attribute
+html, head and body
+html - root elemant that holds everything
+head- contains info about a page
+body- the main cotent of a page
+an attribyte is used to give info about an element and it goes inside the opening tag
+attributeName = "value"
+
+empty elements are without content or closing tag
+ol html type
+ul html
+disc
+circle
+square
+dl html dt, dd
+table: tr td th thead tbody tfoot caption
+img src
+figure
+figcaption
+css- cascadin stylesheet for styling
+javascript for action
+html declaration
+
+
+css -  cascadin stylesheet for styling 
+
+How to uses css in html
+inline css is when you write css as an attribute to an element- tyle="property: value;"
+internal css - is when you write css inside the head section of the document all wrapped with a style element 
+<style>
+ selector{
+    property: value
+ }
+box sizing - content box
+            border box
+            css border
+            border radius
+            relaive unit does not depends on something- percentage,  em,rem- root element,  ch, vh- view port height, vw-viewport weight, dvh- dynamic view pot height, dvw, vmin, vmax,dvmin*, dvmax*, fit content, mincontent, maxcontent
+            absolute unit depends on something-px stands for pixel and pixel stands for picture element, pc- pical, pt-point
+            font-size:clamp(20px, 5vw, 6opx)
+            magin-top
+            min-width:
+            max-width
+
+           /* css positioning
+           /* z-index*/
+           section- isolation
+           sticky borrows from reative and fixed position
+
+
+
+
+
+external css- when you create an external css file and the file is been linked to the html inside the head section using the link tag
+
+
+ selector{
+    property: value
+ }
+
+ css selector a selector is what you use to select an element for styling
+ simple selector - name or id{#}, class{.} universal[*]
+ pseudo selector-  based on a state
+pseudo element selector- when you select a part of an element for styling
+attribute selector- select an element based on its attribute
+combination selector -
+
+rgb - red green blue
+rgba- alpha
+hsl= hue, saturation, lightness
+hsla-
+*/
+body 
+/* background colour::after red
+tdl
+text-align: lr;
+text-decoration-line: none
+letter- spacing: 10px;
+word-spacing:10px;
+line-height:2;
+br-brick
+text-shadow:2px  3px  0  white;
+font-family: algerian;
+font-weight:400;
+font-varaint: normal;
+@font-face:{
+   font-family:lums;
+   src: url
+}
+links-a link is an object that points to another document, or another document, a part in the same document, anchor element[a]
+/*box model*/
+/*.box-sizing
+content box- is when you give an element a size and that size is only for the content. ie the padding and border in excemption
+border box-
+*/
+padding
+margin
+border
+outline
+
+    box-sizing:borderbox;
+    margin:0;
+    padding:0;
+}
+
+section{
+    padding: 20px;
+    background-color: black;
+}
+div{
+background: teal;
+padding: 10px;
+color: rgb(0, 204, 255)
+margin: bottonm 10px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+
+}
+.fixed{
+    position
+}
+display: in-line block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+
+span{
+    display:inline-block;
+    font-size: 7rem;
+    position:  relative ;
+}
+span:first-child{ 
+
+    width:100%;
+    height: 100%;
+    background: rgba(128, 0, 0, 0.178);
+    border-radius :50%; 
+    bottom: 12px;
+        border-radius: 50%;}
+
+
+span:last-child{
+
+    width: calc(50% - 50px);
+    height: calc(50% - 50px);
+    background: rgb(0, 255, 157);
+    border-radius: 50%;
+    bottom : 55%;
+     left: 85%;   
+     top: -65%; 
+     top:12px;
+}
+
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: powderblue;
+      }
+      h1 {
+        color: red;
+      }
+      p {
+        color: blue;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>hello &#128512;</h1>
+    <title>meaningful Title</title>
+    <section>
+      <h1>WWF</h1>
+      <p>
+        The World Wide Fund for Nature (WWF) is an international organization
+        working on issues regarding the conservation, research and restoration
+        of the environment, formerly named the World Wildlife Fund. WWF was
+        founded in 1961.
+      </p>
+    </section>
+    <section>
+      <h1>Panda symbol</h1>
+      <p>
+        The Panda has become the symbol of WWF. The well-known panda logo of WWF
+        originated from a panda named Chi Chi that was transferred from the
+        Beijing Zoo to the London Zoo in the same year of the establishment of
+        WWF. extinction
+      </p>
+      <article>
+        <header>
+          <h1>What Does WWF Do?</h1>
+          <p>WWF's mission:</p>
+        </header>
+        <p>
+          WWF's mission is to stop the degradation of our planet's natural
+          environment, and build a future in which humans live in harmony with
+          nature.
+        </p>
+      </article>
+    </section>
+  </body>
+</html>
+
+
+form
+label form
+
+input text
+password
+email
+button login
+url 
+date 
+month
+week
+time
+datetime local
+range
+hidden color
+file
+radio
+
+
+
+
+button type submit, reset
+select, option
+
+</head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>personal info</legend>
+      </fieldset>
+      <fieldset>
+        <legend>contact info</legend>
+      </fieldset>
+      <label for="name">username</label>
+      <input type="text" />
+      <div>
+        <label for="name">password</label>
+        <input type="password" />
+      </div>
+      <label for="name">email</label>
+      <input type="text" />
+
+      <label for="name">number</label>
+      <input type="number" />
+      <div>
+        <label for="name">url</label>
+        <input type="url" />
+      </div>
+      <div>
+        <label for="name">search</label>
+        <input type="seaech" />
+      </div>
+      <input type=checkbox"/>computer<br />
+      <input type="submit" value="submit/" />
+      <input type="reset" />
+      <input type="image" src="image.jpg" alt="" width="140" height="140" />
+    </form>
+    <input type="file" />
+    <button>login</button
+    </body>
+</html>
+
+
+form action and method
+placeholder
+hidden selected
+multiple accept
+pattern
+cdn- content delivery network
+hr for line
+<div>
+      <h1>INSTAGRAM</h1>
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    
+    <form novalidate>
+      <div class="form_control">
+        <input type="email" placeholder=" email address or phone number" />
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="form_control">
+        <input type="password" placeholder=" password">
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div>
+        <div class="form_control">
+          <input type="submit" value="login">
+      </div>
+      <a href="#"> Forgotten Password?</a>
+      <input type="submit"value='create new account'>
+    </form>
+    <script></script>
+  <div>
+      <h1>INSTAGRAM</h1>
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    
+    <form novalidate>
+      <div class="form_control">
+        <input type="email" placeholder=" email address or phone number" />
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="form_control">
+        <input type="password" placeholder=" password">
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div>
+        <div class="form_control">
+          <input type="submit" value="login">
+      </div>
+      <a href="#"> Forgotten Password?</a>
+      <input type="submit"value='create new account'>
+    </form>
+    <script></script>
+  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    };
+
+
+
+
+form{
+    display: block;
+    box-shadow: 0 0 23px rgba(0, 0, 0, 0.5);
+    background: rgb(0 0 0 0);
+    width: 500px;
+    height: 500px;
+    margin-inline: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+
+
+form_control{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+
+
+input{
+    width: 100%;
+    padding: 15px ;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    
+}
+
+input::placeholder{
+    color: black;
+}
+
+input:not([type='submit']){
+    padding-right: 50px;
+}
+
+input:focus {
+    outline: 1px solid rgba(0, 174, 255, 0.507);
+    outline-offset: -3px;
+}
+
+input:focus::placeholder{
+    color: aliceblue;
+}
+
+input[type='submit'] {
+    background: blue;
+    color: #000;
+}
+
+.form_control i{
+    position: absolute;
+    font-size: 20px;
+    top:calc(50%-10px)
+    right 20px;
+}
+
+a{
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+a::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+}
+
+form>input{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: #42b72a !important;
+}
+
+transformtranslatex
+aspect-ratio
+
+
+script
+utf8
+
+position
+float
+flexbox -one directional layout system
+flexcontainer- is wha you would be giving the flex property
+flexitems- are the items directly under the container
+flex direction- is the direction you are choosing. row, column, row- reverse, column-reverse
+flex-axises- main and the cross
+justification-alignment on the main axises
+gap
+grid container
+grid-items:grid cell
+grid- template-columns:-3
+grid template-rows
+grid-template-areas: auto-fill
+grid-lines- row lines  and column lines
+grid-column: 1/2
+grid-row:3/4
+justify- content
+justify- items
+align-content
+fr
+place-items
+place-content
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #e7e9eb;
+      }
+      #myDIV {
+        height: 300px;
+        display: grid;
+        gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+        grid-template-areas: "myArea myArea ." "myArea myArea .";
+      }
+      #myDIV div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+      .item1 {
+        grid-area: myArea;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myDIV">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+    </div>
+  </body>
+</html>
+
+
+grid
+html<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>david</title>
+  </head>
+  <body>
+    <nav>
+      <aside>1</aside>
+      <aside>2</aside>
+      <aside>3</aside>
+      <aside>4</aside>
+      <aside>5</aside>
+      <aside>6</aside>
+    </nav>
+    <!-- <main>
+      <section>1</section>
+      <section>2</section>
+      <section>3</section>
+      <section>4</section>
+      <section>5</section>
+      <section>6</section>
+      
+    </main> -->
+  </body>
+</html>
+
+css
+nav{
+    background: teal;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+  gap: 20px;
+    grid-template-areas: 
+        "a a b "
+        " d c b "
+        " d  e e     "
+        " f  f f"
+    ;
+}
+
+aside:nth-child(1){
+    grid-area: a ;
+
+    
+}
+aside:nth-child(2){
+    grid-area: b;
+    
+}
+aside:nth-child(3){
+    grid-area: c;
+}
+aside:nth-child(4){
+    grid-area: d ;
+    
+}
+aside:nth-child(5){
+    grid-area: e ;
+}
+aside:nth-child(6){
+    grid-area: f ;
+
+}
+
+aside{
+    background: black;
+    display: grid;
+    place-items: center;
+}
+
+fronten
+
+animation-timing-function
+delay
+rotate
+name
+iteration-count
+direction
+fill-model
+play-state

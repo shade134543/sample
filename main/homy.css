@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 20px;
+}
+
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.top div {
+  border-radius: 30px;
+  border: 3px solid grey;
+  height: 300px;
+  width: 500px;
+  background: grey;
+}
+
+.top div h1 {
+  color: green;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+}
+
+.top div p {
+  color: white;
+  font-size: xx-large;
+  font-family: serif;
+  margin-left: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.re {
+  border: 1px solid white;
+  margin-top: 60px;
+  width: 150px;
+  margin-left: 80px;
+}
+
+.get {
+  border: 1px solid white;
+  width: 150px;
+  margin-left: 270px;
+  margin-top: -21px;
+  overflow: hidden;
+}
+.top div svg {
+  margin-top: 17%;
+  margin-left: 23%;
+}
+
+.top div button {
+  background: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 360px;
+  margin-left: 230px;
+  margin-top: px;
+}

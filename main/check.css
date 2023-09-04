@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(201, 44, 44);
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  width: 740px;
+  height: 520px;
+  border: 1px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.you h1 {
+  margin-left: 50px;
+  font: 700 bold;
+  font-family: sans-serif;
+}
+
+.you p {
+  font: 700;
+}
+
+.you h2 {
+  font: xx-small;
+}
+
+.you svg {
+  margin-left: 348px;
+  margin-top: -399.4px;
+  max-width: 500px;
+}
+.you button {
+  border-radius: 5px;
+  color: white;
+  background: rgb(0, 0, 0);
+  margin-left: 0px;
+  margin-top: 20px;
+}
